@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "tab",
+  "version": "${version}",
+  "name": "Trade and Borders",
+  "description": "A Towny-esque Mod developed for my personal servers!",
+  "authors": [
+    "TechTastic"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT License",
+  "icon": "assets/tab/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.techtastic.tab.fabric.TradeAndBordersModFabric"
+    ]
+  },
+  "mixins": [
+    "tab.mixins.json",
+    "tab-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.18.2",
+    "architectury": ">=4.11.91"
+  }
+}
